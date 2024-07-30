@@ -13,7 +13,7 @@
       "FrScTe10": 0,
       "FrScTe11": 0,
       "FrScTe12": 0,
-      "FrScTe13": 0
+      "FrScTe13": 1
     }
   },
   "idToTestNameHash": {
@@ -47,7 +47,7 @@
     "From Scratch Tests binarySearch is written recursively": "FrScTe13"
   },
   "humanReadable": {
-    "From Scratch Tests": "4/13",
-    "finalTestScore": "FINAL SCORE: 4/13"
+    "From Scratch Tests": "5/13",
+    "finalTestScore": "FINAL SCORE: 5/13"
   }
 }
