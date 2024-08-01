@@ -9,6 +9,8 @@ const sum = (arr, total = 0, idx = 0) => {
 
 // Reverse string using recursive approach
 const reverse = (str) => {
+
+};
   /*
   FEEDBACK:
     Here is the algorithm of one way to answer this problem
@@ -26,7 +28,6 @@ const reverse = (str) => {
   
     Step 4: Return the result of the recursive call to continue the process
   */
-};
 
 // Iterative approach to solving the fibonacci problem
 const fibIter = (n) => {
