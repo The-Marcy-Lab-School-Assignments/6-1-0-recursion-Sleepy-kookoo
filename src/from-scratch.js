@@ -8,26 +8,29 @@ const sum = (arr, total = 0, idx = 0) => {
 }
 
 // Reverse string using recursive approach
-const reverse = (str) => {
-
+const reverse = (str, reversedStr = '', index = 0) => {
+  if (index === str.length) return reversedStr;
+  //recursive case
+  return reverse(str, str[index] + reversedStr, index + 1);
 };
-  /*
-  FEEDBACK:
-    Here is the algorithm of one way to answer this problem
-    Step 1: Define the base case
-    - Check if the current index (idx) is less than 0
-    - If yes, return the reversed string as it is complete
-  
-    Step 2: Define the recursive case
-    - Take the character at the current index (str[idx])
-    - Append this character to the reversed string (reversedStr)
-  
-    Step 3: Call the function recursively
-    - Decrease the current index by one (idx - 1)
-    - Pass the updated reversed string to the next function call
-  
-    Step 4: Return the result of the recursive call to continue the process
-  */
+
+/*
+FEEDBACK:
+  Here is the algorithm of one way to answer this problem
+  Step 1: Define the base case
+  - Check if the current index (idx) is less than 0
+  - If yes, return the reversed string as it is complete
+ 
+  Step 2: Define the recursive case
+  - Take the character at the current index (str[idx])
+  - Append this character to the reversed string (reversedStr)
+ 
+  Step 3: Call the function recursively
+  - Decrease the current index by one (idx - 1)
+  - Pass the updated reversed string to the next function call
+ 
+  Step 4: Return the result of the recursive call to continue the process
+*/
 
 // Iterative approach to solving the fibonacci problem
 const fibIter = (n) => {
